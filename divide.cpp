@@ -1,5 +1,5 @@
 #include<iostream>
-using namespace std;
+//using namespace std;
 
 int divide(int a,int b)
 {
