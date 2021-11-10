@@ -1,5 +1,5 @@
 #include<iostream>
-//using namespace std;
+
 
 int checkifnumeratorprime(int a,int b)
 {
@@ -16,6 +16,7 @@ int divide(int a,int b)
 {
   if(b == 1) return (a);
   if(b == 0) return -1;
+  if(b == 3) return (a);
   if(b == 2) return (a);
   return a/b;
 }
