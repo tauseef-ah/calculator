@@ -1,5 +1,18 @@
 #include<iostream>
-
+#include <cmath>
+bool isprime(int num)
+{
+  bool isprimenum = true;
+  for(int i=2;i< sqrt(num);i++)
+  {
+    if(num%i == 0)
+    {
+        isprimenum = false;
+        break;
+    }
+  }
+  return isprimenum;
+}
 
 int checkifnumeratorprime(int a,int b)
 {
