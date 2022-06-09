@@ -7,6 +7,6 @@ int add(int a,int b)
   int* num1 = new int(a);
   int* num2 = new int(b);
   int* m3 = (int*) malloc(sizeof(int));
-  
+  delete[] num1; 
   return *num1+*num2;
 }
